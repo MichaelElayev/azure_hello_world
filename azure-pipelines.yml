@@ -12,8 +12,7 @@ pool:
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
-
 - task: DotNetCoreCLI@2
   inputs:
     command: 'build'
-    projects: 'HelloWorld/'
+    projects: 'azure_hello_world/HelloWorld'
