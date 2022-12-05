@@ -10,5 +10,5 @@ pool:
   name: local
 
 steps:
-- script: dotnet build
+- script: ls
   displayName: 'build'
