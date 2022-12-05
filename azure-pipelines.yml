@@ -13,5 +13,5 @@ steps:
 - script: cd ./HelloWorld ; dotnet build
   displayName: 'build'
 
-- publish: $(System.DefaultWorkingDirectory)/bin/
+- publish: $(System.DefaultWorkingDirectory)
   artifact: Hello
