@@ -10,5 +10,5 @@ pool:
   name: local
 
 steps:
-- script: pwd; tree
+- script: cd ./HelloWorld ; dotnet build
   displayName: 'build'
