@@ -10,5 +10,5 @@ pool:
   name: local
 
 steps:
-- script: ls
+- script: pwd; tree
   displayName: 'build'
