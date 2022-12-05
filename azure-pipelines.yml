@@ -10,9 +10,5 @@ pool:
   name: local
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-- task: DotNetCoreCLI@2
-  inputs:
-    command: 'build'
-    projects: '/'
+- script: dotnet build
+  displayName: 'build'
