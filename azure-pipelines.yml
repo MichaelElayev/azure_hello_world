@@ -15,4 +15,4 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'build'
-    projects: 'azure_hello_world/HelloWorld'
+    projects: '/HelloWorld'
